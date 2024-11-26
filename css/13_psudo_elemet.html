@@ -1,0 +1,55 @@
+32_psudo_elemet.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li::first-letter {
+            background-color: aqua;
+            font-size: 20px;
+            color: brown;
+        }
+
+        ul li::first-line {
+            background-color: blue;
+        }
+
+        .main::first-line {
+            background-color: red;
+        }
+        .main::selection{
+            background-color: lightcoral;
+        }
+        ul li::before{
+            content: "s";  
+        }
+        ul li::after{
+            content: "y";
+        }
+
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>one</li>
+        <li>one</li>
+        <li>one</li>
+        <li>one</li>
+        <li>one</li>
+        <li>one</li>
+    </ul>
+
+    <div class="main">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi a voluptatibus architecto eius est nobis cumque
+        dicta reiciendis, quam quis hic. Ducimus, architecto reprehenderit porro libero quaerat laudantium qui
+        repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto perspiciatis labore, suscipit
+        voluptates aliquid voluptatum soluta quod cum temporibus, quaerat odio nulla harum ipsa dicta dolor nam cumque,
+        veniam ipsam.
+    </div>
+</body>
+
+</html>
