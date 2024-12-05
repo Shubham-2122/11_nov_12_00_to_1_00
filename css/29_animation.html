@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 200px;
+            width: 200px;
+            border: 2px solid;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            /* animation: abc 2s infinite; */
+            animation: ab 6s 2s infinite;
+        }
+
+        /* use */
+        /* @keyframes abc {
+            from{
+                background: lightcoral;
+                transform: translate(100px);
+            }
+            to{
+                background: linear-gradient(red,green);
+                transform: translate(0px);
+            }
+        } */
+
+        /* 0 - 10  - 20- 100 */
+    
+        @keyframes ab {
+            0%{
+                background: red;
+                transform: translate(0);
+            }
+            20%{
+                background: green;
+                transform: translate(100px);
+            }
+            40%{
+                background: linear-gradient(red,green);
+                transform: translate(0);
+            }
+            60%{
+                background: blue;
+                transform: rotate(180deg);
+            }
+            80%{
+                background: lightcoral;
+                margin: 100px;
+            }
+            100%{   
+                background: navy;
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+
+    </div>
+</body>
+</html>
