@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* tv */
+        .main {
+            height: 200px;
+            width: 100%;
+            background: red;
+        }
+
+        /* pc  */
+        @media only screen and (max-width:1160px) {
+            .main {
+                background: rgb(23, 176, 227);
+            }
+        }
+
+        /* iphade tables :- 768 - 992 */
+        @media only screen and (max-width:992px) {
+            .main {
+                background: lightcoral;
+                width: 50%;
+            }
+        }
+
+        /* tables :- 500 - 768 */
+        @media only screen and (max-width:768px) {
+            .main {
+                background: green;
+                width: 100%;
+            }
+        }
+
+        /* 0-500 width :- blue  mobile */
+        @media only screen and (max-width:500px) {
+            .main {
+                background: blue;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- two media query :- max (pc mobile, tables ,pc, tv) and min (mobile , table,pc)   -->
+    <div class="main">
+
+    </div>
+
+
+</body>
+
+</html>

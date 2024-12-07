@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            height: 200px;
+            width: 200px;
+            border: 2px solid;
+            margin: 200px auto;
+            /* -webkit-animation: slide-in-elliptic-top-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both; */
+	        animation: slide-in-elliptic-top-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
+        }
+
+        /* @-webkit-keyframes slide-in-elliptic-top-fwd {
+            0% {
+                -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+                transform: translateY(-600px) rotateX(-30deg) scale(0);
+                -webkit-transform-origin: 50% 100%;
+                transform-origin: 50% 100%;
+                opacity: 0;
+            }
+
+            100% {
+                -webkit-transform: translateY(0) rotateX(0) scale(1);
+                transform: translateY(0) rotateX(0) scale(1);
+                -webkit-transform-origin: 50% 1400px;
+                transform-origin: 50% 1400px;
+                opacity: 1;
+            }
+        } */
+
+        @keyframes slide-in-elliptic-top-fwd {
+            0% {
+                -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+                transform: translateY(-600px) rotateX(-30deg) scale(0);
+                -webkit-transform-origin: 50% 100%;
+                transform-origin: 50% 100%;
+                opacity: 0;
+            }
+
+            100% {
+                -webkit-transform: translateY(0) rotateX(0) scale(1);
+                transform: translateY(0) rotateX(0) scale(1);
+                -webkit-transform-origin: 50% 1400px;
+                transform-origin: 50% 1400px;
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- https://animista.net/play/entrances/slide-in-elliptic -->
+    <div class="main">
+
+    </div>
+</body>
+
+</html>

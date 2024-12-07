@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* mobile */
+         .main {
+            height: 200px;
+            width: 100%;
+            background: red;
+        }
+
+        /* 500 -> 768  */
+        @media only screen and (min-width:500px) {
+            .main{
+                background: blue;
+            }
+        }
+        /* 768 -> ? */
+        @media only screen and (min-width:768px) {
+            .main{
+                background: rgb(255, 0, 234);
+            }
+        }
+
+        @media only screen and (min-width:992px) {
+            .main{
+                background: rgb(119, 109, 5);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+
+    </div>
+</body>
+</html>
