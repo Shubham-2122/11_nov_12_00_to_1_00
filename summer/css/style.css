@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* reuse */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.logo{
+    width: 70px;
+}
+
+.nav .nav-list .navitem {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+.navitem .nava {
+    font-size: 17px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #54524f;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-decoration: none;
+}
+
+.icon{
+    width: 100px;
+    background-color: rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 5px;
+}
+.icon a{
+    color: #54524f;
+    font-size: 17px;
+}
