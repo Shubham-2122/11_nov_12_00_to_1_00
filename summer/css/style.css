@@ -10,13 +10,23 @@
     margin: 0 auto;
 }
 
+
+#Header {
+    /* height: 400px; */
+    background: url("/images/header.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px 0;
 }
-.logo{
+
+.logo {
     width: 70px;
 }
 
@@ -36,13 +46,56 @@
     text-decoration: none;
 }
 
-.icon{
+.icon {
     width: 100px;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     padding: 10px;
     border-radius: 5px;
 }
-.icon a{
+
+.icon a {
     color: #54524f;
     font-size: 17px;
+}
+.header-main{
+    font-family: "Open Sans";
+    padding: 50px 0;
+}
+
+.header-main .header-h1 {
+    font-size: 92px;
+    width: 50%;
+    color: #deb37e;
+    font-weight: 800;  
+    filter: drop-shadow(2.575px -4.286px 2.5px rgba(84, 82, 79, 0.22));
+}
+
+.header-main .header-h5 {
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: #54524f;
+    font-weight: 700;
+    font-style: italic;
+    padding: 10px 0;
+}
+
+.header-main .header-btn {
+    opacity: 0.902;
+    padding: 10px 20px;
+    border-radius: 21px;
+    background-color: #ffffff;
+    font-size: 25px;
+    color: #776c64;
+    font-weight: 800;
+    text-align: center;
+}
+
+.header-main .header-p {
+    width: 35%;
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #54524f;
+    font-weight: 400;
+    font-style: italic;
+    margin: 20px 0;
 }
