@@ -63,7 +63,8 @@
 }
 
 .header-main .header-h1 {
-    font-size: 92px;
+    /* font-size: clamp(min,, max); */
+    font-size: clamp(20px,7.5vw,92px);
     width: 50%;
     color: #deb37e;
     font-weight: 800;  
@@ -71,7 +72,7 @@
 }
 
 .header-main .header-h5 {
-    font-size: 25px;
+    font-size: clamp(18px,3.4vw,25px);
     letter-spacing: 5px;
     color: #54524f;
     font-weight: 700;
@@ -84,7 +85,7 @@
     padding: 10px 20px;
     border-radius: 21px;
     background-color: #ffffff;
-    font-size: 25px;
+    font-size: clamp(18px,3.4vw,25px);
     color: #776c64;
     font-weight: 800;
     text-align: center;
@@ -92,7 +93,7 @@
 
 .header-main .header-p {
     width: 35%;
-    font-size: 21px;
+    font-size: clamp(18px,3.4vw,25px);
     letter-spacing: 1px;
     color: #54524f;
     font-weight: 400;

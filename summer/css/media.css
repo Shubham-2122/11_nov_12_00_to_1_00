@@ -5,7 +5,16 @@
     
 }
 @media only screen and (max-width:768px) {
-    
+    .nav-list{
+        display: none;
+    }
+    .header-main .header-h1{
+        width: 100%;
+    }
+    .header-main .header-p{
+        width: 50%;
+    }
+   
 }
 
 @media only screen and (max-width:576px) {
