@@ -1,22 +1,38 @@
-@media only screen and (max-width:1160px) {
-    
-}
-@media only screen and (max-width:992px) {
-    
-}
+@media only screen and (max-width:1160px) {}
+
+@media only screen and (max-width:992px) {}
+
 @media only screen and (max-width:768px) {
-    .nav-list{
+    .nav-list {
         display: none;
     }
-    .header-main .header-h1{
+
+    .header-main .header-h1 {
         width: 100%;
     }
-    .header-main .header-p{
+
+    .header-main .header-p {
         width: 50%;
     }
-   
+
+    .sec1-card {
+        display: block;
+    }
+
+    .card {
+        width: 60%;
+        margin: 10px auto;
+    }
+    .sec1-main .sec1-p{
+        width: 80%;
+    }
+
+
 }
 
 @media only screen and (max-width:576px) {
-    
+    .card {
+        width: 80%;
+        margin: 10px auto;
+    }
 }

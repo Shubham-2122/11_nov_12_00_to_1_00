@@ -57,22 +57,23 @@
     color: #54524f;
     font-size: 17px;
 }
-.header-main{
+
+.header-main {
     font-family: "Open Sans";
     padding: 50px 0;
 }
 
 .header-main .header-h1 {
     /* font-size: clamp(min,, max); */
-    font-size: clamp(20px,7.5vw,92px);
+    font-size: clamp(20px, 7.5vw, 92px);
     width: 50%;
     color: #deb37e;
-    font-weight: 800;  
+    font-weight: 800;
     filter: drop-shadow(2.575px -4.286px 2.5px rgba(84, 82, 79, 0.22));
 }
 
 .header-main .header-h5 {
-    font-size: clamp(18px,3.4vw,25px);
+    font-size: clamp(18px, 3.4vw, 25px);
     letter-spacing: 5px;
     color: #54524f;
     font-weight: 700;
@@ -85,7 +86,7 @@
     padding: 10px 20px;
     border-radius: 21px;
     background-color: #ffffff;
-    font-size: clamp(18px,3.4vw,25px);
+    font-size: clamp(18px, 3.4vw, 25px);
     color: #776c64;
     font-weight: 800;
     text-align: center;
@@ -93,10 +94,81 @@
 
 .header-main .header-p {
     width: 35%;
-    font-size: clamp(18px,3.4vw,25px);
+    font-size: clamp(18px, 3.4vw, 25px);
     letter-spacing: 1px;
     color: #54524f;
     font-weight: 400;
     font-style: italic;
     margin: 20px 0;
+}
+
+#sec-1 {
+    padding: 30px 0;
+}
+
+.sec1-main {
+    text-align: center;
+}
+
+.sec1-main .sec1-h1 {
+    font-size: clamp(20px, 7.5vw, 65px);
+    text-transform: uppercase;
+    color: #e2a355;
+    font-weight: 800;
+    font-family: "Open Sans";
+}
+
+.sec1-main .sec1-p {
+    font-size: clamp(18px, 3.4vw, 27px);
+    width: 50%;
+    margin: 10px auto;
+    color: #7f7770;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.sec1-card {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+}
+
+.card {
+    background-image: linear-gradient(0deg, rgba(52, 52, 52, 0.7019607843137254) 0%, rgba(67, 64, 55, 0.47058823529411764) 100%);
+}
+
+.card-main {
+    padding: 30px 20px;
+}
+
+.card-main .card-h4 {
+    font-size: clamp(18px, 3.8vw, 29px);
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.card-main .card-p {
+    font-size: clamp(18px, 3.4vw, 23px);
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+#sec-1 .sec1-btn{
+    font-size: clamp(18px, 3.4vw, 23px);
+    color: #ffffff;
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center;
+    border-radius:10px ;
+    width: 200px;
+    padding: 10px 30px;
+    font-family: "Open Sans";
+    background: linear-gradient(0deg, rgba(52, 52, 52, 0.7019607843137254) 0%, rgba(67, 64, 55, 0.47058823529411764) 100%);
 }
