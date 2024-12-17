@@ -35,4 +35,13 @@
         width: 80%;
         margin: 10px auto;
     }
+    .sec2-main{
+        display: block;
+    }
+    .sec2-img{
+        width: 100%;
+    }
+    .sec2-content{
+        width: 100%;
+    }
 }
