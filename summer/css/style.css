@@ -216,3 +216,63 @@
     padding: 10px 20px;
     border-radius: 10px;
 }
+
+/* footer start */
+
+.foot {
+    padding: 60px 0;
+    background-color: rgb(131, 120, 112);
+}
+
+.footer .row {
+    display: flex;
+}
+
+.footer .row .col-40 {
+    width: 40%;
+}
+
+.footer .row .col-60 {
+    width: 60%;
+}
+
+.col-60 .row {
+    display: flex;
+}
+
+.col-60 .row .col {
+    width: 33.33%;
+    margin: 20px 0;
+}
+
+/* footer end */
+.foot-h4 {
+    font-size: clamp(18px, 3.8vw, 32px);
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.foot-ul {
+    list-style: none;
+}
+
+.foot-ul .foot-li {
+    margin: 7px 0;
+}
+
+.foot-ul .foot-li a {
+    font-size: clamp(18px, 3.8vw, 24px);
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-decoration: none;
+}
+
+.foot-p {
+    margin: 10px 0;
+    font-size: clamp(18px, 3.8vw, 24px);
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}

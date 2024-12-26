@@ -2,6 +2,7 @@
 
 @media only screen and (max-width:992px) {}
 
+/* tables */
 @media only screen and (max-width:768px) {
     .nav-list {
         display: none;
@@ -26,9 +27,24 @@
     .sec1-main .sec1-p{
         width: 80%;
     }
+    .footer .row{
+        display: block;
+        text-align: center;
+    }
+    .footer .row .col-40 {
+        width: 100%;
+    }
+    .footer .row .col-60{
+        width: 100%;
+    } 
+    
+.col-60 .row .col{
+    width: 100%;
+}
 
 
 }
+/* mobile */
 
 @media only screen and (max-width:576px) {
     .card {
