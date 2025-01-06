@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* classlist */
+        .stylesheet{
+            width: 50%;
+            background: linear-gradient(red,blue,green);
+            padding: 30px;
+            font-size: 50px;
+            border: 5px solid;
+            color: white;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <button onclick="addcss()">Add css</button>
+
+    <button onclick="removecss()">remove css</button>
+    <button onclick="togglecss()">Toggle css</button>
+    <h1 id="h1">hello this h1 tag here</h1>
+
+
+    <script>
+        let h1_tag = document.getElementById("h1");
+
+        function addcss(){
+            h1_tag.classList.add("stylesheet")
+        }
+
+        function removecss(){
+            h1_tag.classList.remove("stylesheet")
+        }
+
+        function togglecss(){
+            h1_tag.classList.toggle("stylesheet")
+        }
+    </script>
+  
+</body>
+</html>

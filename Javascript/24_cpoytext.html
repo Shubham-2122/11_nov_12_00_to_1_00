@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <input type="text" placeholder="Enter your text" onkeypress="change()" id="inp"> -->
+    <input type="text" placeholder="Enter your text" onkeyup="change()" id="inp">
+    <textarea name="" id="text" rows="10" cols="30" ></textarea>
+
+    <button onclick="change()">change text</button>
+
+    <script>
+
+        let inp_tag = document.getElementById("inp")
+        let text = document.getElementById("text")
+
+        function change(){
+            text.innerHTML = inp_tag.value
+        }
+
+    </script>
+</body>
+</html>

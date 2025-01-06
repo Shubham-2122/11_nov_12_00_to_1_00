@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h1" onmouseenter="changname()" onmouseleave="removename()" >hello javascript</h1>
+
+    <button onclick="changname()">Change name</button>
+
+    <script>
+        let h1_tag = document.getElementById("h1")
+
+        function changname(){
+            h1_tag.innerText = "Hello world";
+            h1_tag.style.background = "red"
+            // h1_tag.style.transition = ".6s"
+        }
+
+        function removename(){
+            h1_tag.innerText = "hello javascipt";
+            h1_tag.style.background = "blue"
+        }
+    </script>
+</body>
+</html>

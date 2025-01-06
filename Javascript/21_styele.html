@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* h1{
+            font-size: ;
+        } */
+    </style>
+</head>
+<body>
+    <h1 id="h1">hello this tag</h1>
+    <button onclick="chnagestyle()">Chnage style</button>
+
+    <script>
+        let h1_tag = document.getElementById("h1")
+        console.log(h1_tag)
+
+        // style methods
+        function chnagestyle(){
+            // javascipt style
+            h1_tag.innerText = "Hello h1 tag here";
+            h1_tag.style.background = "red";
+            h1_tag.style.color = "blue";
+            h1_tag.style.padding = "100px";
+            h1_tag.style.fontSize = "50px"
+        }
+    </script>
+</body>
+</html>
