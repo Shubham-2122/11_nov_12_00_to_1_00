@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" onsubmit="return validation()">
+        <div>
+            <label for="">Enter your name</label>
+            <input type="text" placeholder="Enter your name" id="nm">
+            <span id="nmer"></span>
+        </div>
+        <div>
+            <label for="">Enter your Email</label>
+            <input type="email" placeholder="Enter your Email" id="Email">
+            <span id="emrr"></span>
+        </div>
+        <div>
+            <label for="">Enter your phone</label>
+            <input type="tel" placeholder="Enter your phone" id="phone">
+            <span id="pherr"></span>
+        </div>
+        <div>
+            <label for="">Enter your Password</label>
+            <input type="password" placeholder="Enter your Password" id="psw">
+            <span id="pswer"></span>
+        </div>
+        <div>
+            <label for="">Confrom Password</label>
+            <input type="password" placeholder="Enter your cPasword" id="cpsw">
+        </div>
+        <div>
+            <input type="submit" >
+        </div>
+    </form>
+
+
+    <script>
+        let nm = document.getElementById("nm");
+        let nmspan = document.getElementById("nmer")
+        let email = document.getElementById("Email")
+        let emerr = document.getElementById("emrr")
+        let phone = document.getElementById("phone")
+        let pher = document.getElementById("pherr")
+        let password = document.getElementById("psw")
+        let pswerr = document.getElementById("pswer")
+        let cpsd = document.getElementById("cpsw")
+
+        console.log(nm)
+
+
+        function validation(){
+            if(nm.value == "" || nm.value == null){
+                nmspan.innerHTML = "pls required Name";
+                console.log("pls required form")
+                nmspan.style.color = "red";
+                
+                return false;
+            }
+            
+            else{
+                nmspan.innerHTML = ""
+            }
+            if(email.value == "" || email.value == null){
+               
+                return false;
+            }
+            else{
+                emerr.innerHTML = ""
+            }
+            if(phone.value == "" || phone.value == null){
+                pher.innerHTML = "pls required phone";
+                pher.style.color = "red";
+                return false;
+            }
+            else{
+                pher.innerHTML = ""
+            }
+            if(password.value == "" || password.value == null){
+                pswerr.innerHTML = "pls required password";
+                pswerr.style.color = "red";
+                return false;
+            }
+            else{
+                pswerr.innerHTML = ""
+            }
+            if(password.value !== cpsd.value){
+                alert("Password does not match")
+                return false
+            }
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
