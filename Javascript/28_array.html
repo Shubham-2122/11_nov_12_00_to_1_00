@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- array :- store in mutiple value in single varibale  -->
+    <!-- collection of multples value in single varibale  -->
+
+    <!-- array [] :- start index :- start 0 -->
+
+    <!-- array ;- primitive data allow -->
+<!-- 
+    syntax :
+
+    let arr = [values] -->
+
+    <!-- alwasy 0  -->
+    <script>
+        let arr = [1,2,4,5,6,"sh","ad",[1,2,3,4,["asd","asdf"]],"czs",35,63,23]
+        console.log(arr)
+        // array[index]
+        console.log(arr[4])
+        console.log(arr[6])
+        console.log(arr[7][4][1])
+
+
+        // document.write(arr[6])
+        document.write(arr,"<br>")
+
+        // simple for
+        // for(i=0;i<arr.length;i++){
+        //     // console.log(i)
+        //     console.log(arr[i])
+        //     document.write(i,"=>",arr[i],"<br>")
+        // }
+
+        // advance for of , for  in
+
+        // for data values
+        // for(let data of arr){
+        //     console.log(data)
+        //     document.write(data,"<br>")
+        // }
+
+        // console.log(arr)
+        // // for in 
+        for(let data1 in arr){
+            // index
+            // console.log(data1)
+            console.log(arr[data1])
+            // value[index]
+            document.write("index =",data1 , "=>" ,arr[data1],"<br>")
+        }
+
+
+
+
+    
+    </script>
+
+
+</body>
+</html>
