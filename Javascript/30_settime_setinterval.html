@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- setinterval :- interval 1s contiune  
+    settimeout :- stop 1s function stop -->
+
+    <script>
+         function add(){
+            console.log("add function")
+        }
+        add()
+
+        // arrow function es 6
+        const sum =()=>{
+            console.log("sum value")
+        }
+        sum()
+
+
+        // setIerval second :- clearinterval :- stop watch
+        setInterval(()=>{
+            console.log("hello interval data")
+            // document.write("hello")
+        },1000)
+
+
+        // settimeout :- every 1s Time stop :- silder 
+        setTimeout(()=>{
+            console.log("Hello Timeout data")   
+        },1000)
+    </script>
+
+
+</body>
+</html>
