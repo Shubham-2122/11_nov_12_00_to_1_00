@@ -1,0 +1,33 @@
+.list {
+  list-style: none;
+}
+.list li {
+  display: inline-block;
+  background: blue;
+  padding: 10px 20px;
+}
+.list li a {
+  text-decoration: none;
+  color: white;
+}
+.list li:hover {
+  background: lightcoral;
+}
+.list li:hover a {
+  color: black;
+}
+
+.list1 {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.list1 li {
+  background-color: blue;
+  padding: 10px 20px;
+}
+.list1 li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}/*# sourceMappingURL=nested.css.map */

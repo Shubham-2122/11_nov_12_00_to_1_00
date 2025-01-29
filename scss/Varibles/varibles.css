@@ -1,0 +1,12 @@
+h1 {
+  background: red;
+  color: rgb(241, 234, 234);
+  font-size: 50px;
+}
+
+p {
+  font-size: 30px;
+  border: 2px solid black;
+  border-width: 25px;
+  padding: 30px;
+}/*# sourceMappingURL=varibles.css.map */

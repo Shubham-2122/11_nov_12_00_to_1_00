@@ -1,0 +1,19 @@
+
+// $vribles name : value
+$bg-color : red;
+$text-color: rgb(241, 234, 234);
+$size : 50px;
+$border : 2px solid black;
+
+h1{
+    background: $bg-color;
+    color: $text-color;
+    font-size: $size ;
+}
+
+p{
+    font-size: $size - 20px;
+    border: $border;
+    border-width: $size / 2;
+    padding: $size - 20px;
+}
