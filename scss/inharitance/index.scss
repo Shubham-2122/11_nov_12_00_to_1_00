@@ -1,0 +1,11 @@
+%btn{
+    border: none;
+    padding: 10px 20px;
+    background: linear-gradient(red,green);
+    border: 5px solid black;
+    color: white;
+}
+
+.btn{
+    @extend %btn;
+}

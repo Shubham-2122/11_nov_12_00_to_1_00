@@ -1,0 +1,13 @@
+@use 'border';
+
+$bg-color:green;
+
+h1{
+    background-color: $bg-color;
+}
+
+h2{
+    // background-color:border.$bg-data;
+    border: border.$size solid navy;
+    padding: border.$size;
+}

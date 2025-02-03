@@ -1,0 +1,52 @@
+$size : 200px;
+
+@mixin border(){
+    border: 5px solid blue;
+    text-align: center;
+}
+
+@mixin border2($size1,$color){
+    border: $size1 solid $color;
+}
+
+@mixin flexdata($data){
+    display: flex;
+    justify-content: $data;
+
+}
+
+h1{
+    @include border()
+}
+
+.main{
+    height: $size;
+    width: $size;
+    @include border();
+    // border-color: red;
+}
+
+#para{
+    padding: 40px;
+    @include border2(10px,green)
+}
+
+.main2{
+    height: 300px;
+    width: 300px;
+    @include border2(5px,rgba(191, 202, 27, 0.6) )
+}
+
+.main3{
+    background-color: gold;
+    @include flexdata(space-between);
+    .box{
+        height: $size;
+        width: $size;
+        @include border()
+    }
+    @media only screen and (max-width:500px) {
+            background: green;
+            display: block;
+    }
+}

@@ -1,0 +1,40 @@
+h1 {
+  border: 5px solid blue;
+  text-align: center;
+}
+
+.main {
+  height: 200px;
+  width: 200px;
+  border: 5px solid blue;
+  text-align: center;
+}
+
+#para {
+  padding: 40px;
+  border: 10px solid green;
+}
+
+.main2 {
+  height: 300px;
+  width: 300px;
+  border: 5px solid rgba(191, 202, 27, 0.6);
+}
+
+.main3 {
+  background-color: gold;
+  display: flex;
+  justify-content: space-between;
+}
+.main3 .box {
+  height: 200px;
+  width: 200px;
+  border: 5px solid blue;
+  text-align: center;
+}
+@media only screen and (max-width: 500px) {
+  .main3 {
+    background: green;
+    display: block;
+  }
+}/*# sourceMappingURL=index.css.map */
