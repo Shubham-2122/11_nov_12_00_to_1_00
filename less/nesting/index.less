@@ -1,0 +1,45 @@
+.ul{
+    li{
+        display: inline-block;
+        background-color: lightcoral;
+        padding: 10px 20px;
+        a{
+            text-decoration: none;
+            color: black;
+            &::after{
+                content: "2";
+            }
+        }
+        &:hover{
+            background-color: aqua;
+        }
+        &:hover a{
+            color: white;
+        }
+    }
+
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    li{
+        background-color: aqua;
+        padding: 10px 20px;
+        margin-right: 5px;
+        a{
+            text-decoration: none;
+            color: black
+        }
+        &:hover{
+            background-color: lightcoral;
+        }
+        &:hover a{
+            color: white;
+        }
+    }
+    @media only screen and (max-width:576px) {
+        display: block;
+        width: 40%;
+    }
+}

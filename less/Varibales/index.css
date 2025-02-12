@@ -1,0 +1,9 @@
+h1 {
+  background-color: red;
+  color: white;
+}
+.main {
+  height: 150px;
+  width: 200px;
+  border: 2px solid;
+}

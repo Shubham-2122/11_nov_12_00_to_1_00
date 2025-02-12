@@ -1,0 +1,43 @@
+.ul li {
+  display: inline-block;
+  background-color: lightcoral;
+  padding: 10px 20px;
+}
+.ul li a {
+  text-decoration: none;
+  color: black;
+}
+.ul li a::after {
+  content: "2";
+}
+.ul li:hover {
+  background-color: aqua;
+}
+.ul li:hover a {
+  color: white;
+}
+.list {
+  display: flex;
+  list-style: none;
+}
+.list li {
+  background-color: aqua;
+  padding: 10px 20px;
+  margin-right: 5px;
+}
+.list li a {
+  text-decoration: none;
+  color: black;
+}
+.list li:hover {
+  background-color: lightcoral;
+}
+.list li:hover a {
+  color: white;
+}
+@media only screen and (max-width: 576px) {
+  .list {
+    display: block;
+    width: 40%;
+  }
+}

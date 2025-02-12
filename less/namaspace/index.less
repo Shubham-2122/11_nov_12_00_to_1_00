@@ -1,0 +1,23 @@
+#bundle(){
+    .button { 
+        border: 5px solid black;
+        background-color: grey;
+        &:hover {
+          background-color: white;
+        }
+    }
+    .button1 { 
+        border: 5px solid black;
+        background-color: rgb(206, 33, 33);
+        &:hover {
+          background-color: rgb(138, 209, 24);
+        }
+    }
+}
+
+.btn{
+    #bundle.button()
+}
+.btn1{
+    #bundle.button1()
+}

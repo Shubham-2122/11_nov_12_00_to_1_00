@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- array :- collection of multiple values store in single varibale [] ,index 0 -->
+
+
+    <script>
+
+        let arr = [1,2,3,4,5,6,[22,23,24,25],7,8,9,10]
+        console.log(arr)
+        console.log(arr[6][1])
+        console.log(arr[4])
+
+
+        let obj = {
+            name : "yug patel",
+            course :"Front-end",
+            age : 24,
+            data : {
+                num1 : 1,
+                num2 : 2,
+                num3 : 3
+            }
+        }
+        console.log(obj)
+        console.log(obj.name)
+        console.log(obj.course)
+        console.log(obj.data.num3)
+
+        // array in array 
+        // object in object 
+        //arry in object 
+        //object in array
+
+
+        let arr1 = [1,2,3,4,5,6]
+        console.log(arr1)
+        for(let i=0;i<arr1.length;i++){
+            // console.log(i)
+            console.log(arr1[i])
+        }
+
+        // arra in object
+
+        let arr2 = [2,3,4,5,{
+            name:"raj",
+            age:21
+        },34,3]
+
+        console.log(arr2)
+        console.log(arr2[4].name)
+        
+        // object array
+
+        let obj1 ={
+            name : "vikas",
+            course:"Fron-end",
+            age : 21,
+            data : [1,2,3,4]
+        }
+        console.log(obj1.data[2])
+
+    </script>
+</body>
+</html>
