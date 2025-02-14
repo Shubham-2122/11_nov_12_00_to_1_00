@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- class :- collection of member function and data memeber (varible) . data 
+    class ;- blue print of object  -->
+
+    <!-- syntax ;- 
+    class class-name{
+        memebr function(){
+            data member 
+        }
+    }
+    let data = new class-name
+    data. -->
+
+    <script>
+
+        class Bank{
+            // memeber function
+            x = function datails(pin,blance){
+                // data member
+                let bankname = "HDFC";
+                let bankIFSC = "HDFC002A";
+                let pinnumber = pin;
+                let blancedata = blance;
+
+                console.log(pinnumber)
+                console.log(blancedata)
+                console.log("bankname :- ",bankname)
+                console.log("bankIFSC code :- ",bankIFSC)
+
+            }   
+
+            y = function cash(){
+                console.log("cash data")
+            }
+        }
+
+        let yug = new Bank;
+        let dhaval = new Bank
+        console.log(yug)
+        // yug.y()
+        yug.x(123,5000)
+
+        console.log(dhaval)
+        dhaval.x(234,6000)
+        // console.log(Bank)
+
+    </script>
+
+</body>
+</html>

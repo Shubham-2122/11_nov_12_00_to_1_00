@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        class artim{
+            // wihtout para
+            x = function sum(){
+                let a =20,b=10
+                document.write("sum =>",a+b,"<br>")
+            }
+
+            y = function sub(a,b){
+                document.write("sub =>",a-b,"<br>")
+            }
+
+            divi(){
+                let a =30,b=2
+                document.write("divi =>",a/b,"<br>")
+            }
+
+            mul(a,b){
+                document.write("mul =>",a*b,"<br>")
+            }
+        }
+
+        let obj = new artim
+        console.log(obj)
+        obj.x()
+        obj.y(40,20)
+        obj.divi()
+        obj.mul(30,20)
+
+    </script>
+</body>
+</html>
