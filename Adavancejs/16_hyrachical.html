@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- A - B, A - C -->
+
+    <script>
+
+       class A{
+         x = function data(){
+            console.log("A class prent..!")
+            document.write("A class prent..!<br>")
+         }
+       }
+       class B extends A{
+        y = function data1(){
+            console.log("B class chaild B..!")
+            document.write("B class chaild B..!<br>")
+        }
+       }
+       class C extends A{
+        z = function data3(){
+            console.log("c class chaild c..!")
+            document.write("c class chaild c..!<br>")
+        }
+       }
+
+      let ob = new B 
+      console.log(ob)
+      ob.x()
+      ob.y()
+
+      let ob1 = new C
+      console.log(ob1)
+      ob1.x()
+      ob1.z()
+
+    </script>
+</body>
+</html>

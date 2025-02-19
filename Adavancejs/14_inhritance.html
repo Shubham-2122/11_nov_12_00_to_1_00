@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- inhritance :- inhrit one class to another class access  -->
+    1) single :- prenet to chaild
+    2) muti-level :- grand prerent to prent to chail 
+    3) mutipale ;- not possible two prenet and one chaild
+    4) hychical :- one prenet and mutiple chaild 
+    5) hybrid : two combine hybrid
+
+    <!-- A -> B  -->
+     <!-- ex -->
+
+    <script>
+        
+        class A{
+            sum(){
+                console.log("prenet class 1")
+                document.write("prenet class 1<br>")
+            }
+            add(){
+                console.log("prenet class 2")
+                document.write("prenet class 2 <br>")
+            }
+        }
+
+        class B extends A{
+            data(){
+                console.log("chaild class ..!")
+                document.write("chaild class ..!<br>")
+            }
+        }
+
+        let ob = new B 
+        ob.data()
+        ob.add()
+        ob.sum()
+
+    </script>
+</body>
+</html>
