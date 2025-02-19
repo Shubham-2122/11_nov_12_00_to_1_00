@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    class artihm{
+        constructor(a,b){
+            this.a = a;
+            this.b = b;
+        }
+
+        x = function sum(){
+            let sum = this.a + this.b
+            console.log("sum =>",sum)
+            document.write("sum =>",sum,"<br>")
+        }
+
+        y = function sub(){
+            document.write(`sub => ${this.a - this.b} <br>`);
+        }
+
+        
+        mul(){
+            document.write(`mul => ${this.a * this.b} <br>`);
+        }
+
+        
+        divi(){
+            document.write(`divi => ${this.a / this.b} <br>`);
+        }
+    }
+
+    console.log(artihm)
+    let ob = new artihm(30,20)
+    console.log(ob)
+    ob.x()
+    console.log( ob.a)
+    ob.divi()
+    ob.mul()
+    ob.y()
+</script>
+</body>
+</html>
