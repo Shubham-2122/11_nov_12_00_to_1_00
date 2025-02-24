@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- method overloading :- same function name deffent para in same class . Compile time  -->
+    <!-- method overriding :- same function deffent para and but in deffent class . runtime   -->
+
+    <script>
+
+            // overloading
+            // class ab{
+
+            //     display(a){
+            //        console.log("a data",a)
+            //     }
+
+            //     display(a,b){
+            //        console.log("sum =>",a+b)
+            //     }
+            // }
+
+            // let abc = new ab;
+            // console.log(abc)
+            // abc.display(12,20)
+
+            // method overring 
+            class a{
+                display(){
+                    console.log("A class data");
+                }
+            }
+            class b extends a{
+                display(){
+                    console.log("B class data");
+                }
+            }
+            class c extends b{
+                display(){
+                    console.log("C class data");
+                }
+            }
+
+            // let ab = new c
+            // console.log(ab)
+            // ab.display()
+            let arr = [new a,new b,new c]
+            console.log(arr)
+            arr.forEach((data)=>{
+                data.display()
+            })
+
+    </script>
+</body>
+</html>

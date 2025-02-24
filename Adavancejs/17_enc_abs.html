@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- data hide :- abs :- private -->
+    <!-- private :- encul  -->
+
+    <script>
+
+        function Person(name,age){
+
+            // data private absc
+            let _name = name;
+            let _age = age;
+
+            // access encul
+            this.getname = function(){
+                return _name
+            }
+            
+            this.setage = function(){
+                return _age
+            }
+
+            this.setdata = function(newage){
+                return _age = newage
+                // if(newage){
+                //     return _age = newage
+                // }
+                // else{
+                //     console.log("data error")
+                // }
+            }
+
+        }
+
+        let ab = new Person("shubham",25)
+        console.log(ab)
+        console.log(ab._name)
+        console.log(ab._age)
+        console.log(ab.getname())
+        console.log(ab.setage())
+        console.log(ab.setage())
+        console.log(ab.setdata(27))
+        console.log(ab.setage())
+
+
+
+       
+
+
+
+    </script>
+</body>
+</html>
