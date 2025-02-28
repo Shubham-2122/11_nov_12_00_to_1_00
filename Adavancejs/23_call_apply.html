@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- call :- call method as paramter  -->
+    <!-- apply :- apply method as array  -->
+
+    <script>
+        let obj = {
+            fullname : function (city,state){
+                // console.log(``)
+                return this.name +  "  " +this.surname + "  " + city + " "  + state;
+            }
+        }
+
+        // console.log(obj)
+
+        let person ={
+            name : "yug",
+            surname : "Patel"
+        }
+
+        let person2 = {
+            name : "Shubham",
+            surname : "Jadav"
+        }
+
+        // call object as sparate parameter/arrgument data
+        console.log(obj.fullname.call(person,"surat","gujarat"))
+
+        // apply as array data arrgument/parameter
+        console.log(obj.fullname.apply(person2,["ahmedabad","gujarat"]))
+
+    </script>
+</body>
+</html>
