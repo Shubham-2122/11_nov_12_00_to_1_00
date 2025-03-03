@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function output(res){
+            console.log(res)
+        }
+
+        let pro = new Promise(function(res,rejct){
+            if(2==3){
+                res("data success")
+            }
+            else{
+                rejct("data not successfully")
+            }
+        })
+        .then(
+            function value(res){
+                output(res)
+            },
+            function reject(res){
+                output(res)
+            }
+        )
+
+    </script>
+</body>
+</html>
