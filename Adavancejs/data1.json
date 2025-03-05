@@ -1,0 +1,46 @@
+{
+    "user":[
+        {
+            "id":1,
+            "name":"Het patel",
+            "course":"Front-end"
+        },
+        {
+            "id":2,
+            "name":"yug patel",
+            "course":"Back-end"
+        },
+        {
+            "id":3,
+            "name":"Dhrmik patel",
+            "course":"Full-stack"
+        },
+        {
+            "id":4,
+            "name":"Malek",
+            "course":"Back-end"
+        },
+        {
+            "id":5,
+            "name":"Shubham jadav",
+            "course":"MERN-stack"
+        }
+    ],
+    "admin":[
+        {
+            "id":1,
+            "name":"admin",
+            "email":"admin@gmail.com"
+        },
+        {
+            "id":2,
+            "name":"admin2",
+            "email":"admin2@gmail.com"
+        },{
+            "id":3,
+            "name":"admin3",
+            "email":"admin3@gmail.com"
+        }
+
+    ]
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "name":"Het patel",
+        "course":"Front-end"
+    },
+    {
+        "id":2,
+        "name":"yug patel",
+        "course":"Back-end"
+    },
+    {
+        "id":3,
+        "name":"Dhrmik patel",
+        "course":"Full-stack"
+    },
+    {
+        "id":4,
+        "name":"Malek",
+        "course":"Back-end"
+    },
+    {
+        "id":5,
+        "name":"Shubham jadav",
+        "course":"MERN-stack"
+    }
+]

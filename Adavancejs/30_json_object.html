@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- json :- javascript object notation 
+    1) easy use 
+    2) json direct not javscript read method 
+    3) lighwight base nosql api 
+
+    api :- application prog interface 
+     -->
+
+     <!-- json :- object or array or combine string -->
+
+    <!-- syntax : 
+    let json = [
+        {
+            "id":1,
+            "name":"sjuas"
+        }
+    ] -->
+
+    <!-- let object = [{
+        id : 1,
+        name : "asdas"
+    }] -->
+
+
+    <script>
+
+        let json = `[
+            {
+                "id":1,
+                "name":"het",
+                "course":"front-end"
+            },
+            {
+                "id":2,
+                "name":"dhruvil",
+                "course" : "full-stack"
+            }
+        ]`
+
+        console.log(json)
+
+        // json to object/array json parse
+        let ob = JSON.parse(json)
+        // console.log(ob)
+        // document.write(ob)
+
+        ob.forEach(data => {
+            console.log(data)
+            document.write(`id :- ${data.id} name :- ${data.name} course : ${data.course} <br>`)
+        });
+
+        // object/array into  json stringfiy
+
+        let object = [{
+            id:1,
+            name:"Dhaval",
+            course:"Front-end"
+        },
+        {
+            id:2,
+            name:"Varj",
+            course:"Back-end"
+        }
+    ]
+
+    console.log(object)
+
+    let jsondata = JSON.stringify(object)
+    console.log(jsondata)
+
+
+    </script>
+ </body>
+</html>
