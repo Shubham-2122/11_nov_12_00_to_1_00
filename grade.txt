@@ -1,0 +1,26 @@
+1) Yug
+--> HTMl : 4.3/5
+--> css :- 4/5
+--> js :- 3.5/5
+
+2) Dharmik
+--> js 3.5/5
+--> css:- 4
+-->
+
+3) dhruvil 
+--> HTML 4.3 /5
+-->css:- 4/5
+--> js ;- 3.5/5
+
+4) divyang
+--> html css 4.3/5
+--> css:- 4/5
+--> js :- 3.5/5
+ 
+5) malek
+--> HTML :- 4.5/5
+--> css :- 4/5
+--> Javascript :- 4/5  
+
+6) karish 
