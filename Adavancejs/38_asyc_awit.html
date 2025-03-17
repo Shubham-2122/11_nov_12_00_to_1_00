@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // api
+        function getdata(){
+            setTimeout(()=>{
+                console.log("await data")
+            },2000)
+        }
+
+        async function data(){
+            console.log("without data... 1");
+            console.log("without data... 2");
+            console.log("without data... 3");
+            let result = await getdata()
+            console.log("without data... 4");
+            console.log("without data... 5");
+        }
+
+        data()
+    </script>
+</body>
+</html>
