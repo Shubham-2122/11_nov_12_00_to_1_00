@@ -37,13 +37,14 @@
         getdata()
 
         let person = {
-            name : "Yug patel",
-            Coruse : "Full-stack",
+            name : "Dharmik patel",
+            Coruse : "Front-stack",
             city : "Ahmedabad",
             state : "Gujarat"
         }
 
 
+        // create
         const newdata=async()=>{
             const res = await axios.post("https://660d95e36ddfa2943b34c530.mockapi.io/data",person)
             console.log(res.data)
@@ -51,6 +52,32 @@
 
         // newdata()
         
+        // delete 
+        const reamovedata=async()=>{
+            const res = await axios.delete("https://660d95e36ddfa2943b34c530.mockapi.io/data/37")
+            console.log(res.data)
+        }
+
+        // reamovedata()
+
+
+
+        let person1 = {
+            id : 35,
+            name : "Dhruvil patel",
+            Coruse : "MERN-STACK",
+            city : "surat"
+        }
+
+        const updatedata=async()=>{
+            const res = await axios.put(`https://660d95e36ddfa2943b34c530.mockapi.io/data/${person1.id}`,person1);
+            console.log(res.data)
+        }
+
+        updatedata()
+
+
+
 
     </script>
 </body>
