@@ -1,0 +1,38 @@
+what react ? 
+javascript libery
+React component-base 
+React single page application
+Without reload page
+Thirdy paty react application install
+
+
+Class and Function  
+
+vitual Dom vs  Real Dom
+
+
+data flow single side
+
+React agulre vue
+	
+hooks
+Html page one
+
+---> node
+	
+npm :- node package manager
+npm(global) vs npx(app_install)
+
+
+cmd -> npx create-react-app app-name
+
+
+
+
+
+	
+	
+
+
+
+
