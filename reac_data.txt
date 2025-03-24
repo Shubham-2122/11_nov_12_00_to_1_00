@@ -27,6 +27,18 @@ npm(global) vs npx(app_install)
 cmd -> npx create-react-app app-name
 
 
+1) node module :- npm install
+2) public :-  index.html (react one page html) :- root not change 
+	  --> image static image :
+3) Src :- index.js 
+	--> App.js
+
+index.html
+index.js
+app.js
+
+
+npm init
 
 
 
