@@ -1,10 +1,11 @@
 import React from "react";
+import Main_compo from "./Componenet/Main_compo";
+
 
 function App(){
     return(
        <div>
-         <h1>hello this app file</h1>
-         <h2>hsadhkljhn</h2>
+          <Main_compo />
        </div>
     )
 }
