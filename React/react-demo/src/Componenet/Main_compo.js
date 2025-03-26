@@ -8,6 +8,8 @@ function Main_compo() {
       <h1>hello THis Main tag</h1>
       <Class_compo />
        <Func_compo />
+
+       
     </>
   )
 }

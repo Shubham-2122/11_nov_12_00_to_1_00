@@ -3,8 +3,14 @@
 import React from "react";
 
 function Func_compo(){
+
+    let name = "dharmik"
+
     return(
-        <h1>hello this Function compo</h1>
+        <div>
+            <h1>hello this Function compo</h1>
+            <h2>hello name : {name}</h2>
+        </div>
     )
 }
 export default Func_compo;
@@ -31,6 +37,7 @@ export default Func_compo;
 
 // export default Func_compo
 
+// rfc
 // import React from 'react'
 
 // export default function Func_compo() {

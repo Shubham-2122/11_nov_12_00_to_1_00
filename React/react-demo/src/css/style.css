@@ -1,0 +1,11 @@
+#h1{
+    background: linear-gradient(red,green,blue);
+    padding: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+.main{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+}
