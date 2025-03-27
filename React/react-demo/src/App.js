@@ -3,6 +3,7 @@ import Main_compo from "./Componenet/Main_compo";
 import Hello from "./Jsx/Hello";
 import Hello2 from "./Jsx/Hello2";
 import Css from "./css/Css";
+import Props_main from "./Props/Props_main";
 
 
 function App(){
@@ -15,7 +16,11 @@ function App(){
           {/* <Hello /> */}
           {/* <Hello2 /> */}
 
-          <Css />
+
+          {/* <Css /> */}
+      
+            {/* props data */}
+            <Props_main />
        </div>
     )
 }
