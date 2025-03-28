@@ -4,25 +4,29 @@ import Hello from "./Jsx/Hello";
 import Hello2 from "./Jsx/Hello2";
 import Css from "./css/Css";
 import Props_main from "./Props/Props_main";
+import Main_state from "./State/Main_state";
 
 
-function App(){
-    return(
-       <div>
-         {/* component */}
-          {/* <Main_compo /> */}
+function App() {
+  return (
+    <div>
+      {/* component */}
+      {/* <Main_compo /> */}
 
-         {/* Jsx compo */}
-          {/* <Hello /> */}
-          {/* <Hello2 /> */}
+      {/* Jsx compo */}
+      {/* <Hello /> */}
+      {/* <Hello2 /> */}
 
 
-          {/* <Css /> */}
-      
-            {/* props data */}
-            <Props_main />
-       </div>
-    )
+      {/* <Css /> */}
+
+      {/* props data */}
+      {/* <Props_main /> */}
+
+      {/* state data */}
+      <Main_state />
+    </div>
+  )
 }
 
 export default App;
