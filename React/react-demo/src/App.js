@@ -5,6 +5,8 @@ import Hello2 from "./Jsx/Hello2";
 import Css from "./css/Css";
 import Props_main from "./Props/Props_main";
 import Main_state from "./State/Main_state";
+import Form from "./Formhadling/Form";
+import Form_object from "./Formhadling/Form_object";
 
 
 function App() {
@@ -24,7 +26,11 @@ function App() {
       {/* <Props_main /> */}
 
       {/* state data */}
-      <Main_state />
+      {/* <Main_state /> */}
+      
+      {/* state form */}
+      {/* <Form /> */}
+      <Form_object />
     </div>
   )
 }

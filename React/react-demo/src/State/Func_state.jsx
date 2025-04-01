@@ -9,7 +9,7 @@
 
 import React, { useState } from 'react'
 import Image from './Image'
-
+ 
 function Func_state() {
 
     // varible , variale data change = useState(initialvalue)
