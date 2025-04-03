@@ -20,7 +20,7 @@ function Form_object() {
     }
 
     return (
-        <div>
+        <div className='container'>
             <div className="col-6">
                 <form>
                     {/* <div className="mb-3">

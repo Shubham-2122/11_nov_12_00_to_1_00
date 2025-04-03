@@ -7,6 +7,8 @@ import Props_main from "./Props/Props_main";
 import Main_state from "./State/Main_state";
 import Form from "./Formhadling/Form";
 import Form_object from "./Formhadling/Form_object";
+import Useeffect from "./Useeffect/Useeffect";
+import Usetable from "./Useeffect/Usetable";
 
 
 function App() {
@@ -30,7 +32,10 @@ function App() {
       
       {/* state form */}
       {/* <Form /> */}
-      <Form_object />
+      {/* <Form_object /> */}
+
+      {/* <Useeffect /> */}
+      <Usetable />
     </div>
   )
 }
