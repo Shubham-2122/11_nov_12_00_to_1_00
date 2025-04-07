@@ -9,6 +9,10 @@ import Form from "./Formhadling/Form";
 import Form_object from "./Formhadling/Form_object";
 import Useeffect from "./Useeffect/Useeffect";
 import Usetable from "./Useeffect/Usetable";
+import Usercard from "./Useeffect/Usercard";
+import Navabar from "./Bootstrap/Navabar";
+import React_boot from "./Bootstrap/React_boot";
+import Mdb_Card from "./Bootstrap/Mdb_Card";
 
 
 function App() {
@@ -35,7 +39,14 @@ function App() {
       {/* <Form_object /> */}
 
       {/* <Useeffect /> */}
-      <Usetable />
+      {/* <Usetable /> */}
+      {/* <Usercard /> */}
+      
+
+      {/* <Navabar /> */}
+      {/* <React_boot /> */}
+      <Mdb_Card />
+
     </div>
   )
 }
