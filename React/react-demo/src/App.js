@@ -13,41 +13,58 @@ import Usercard from "./Useeffect/Usercard";
 import Navabar from "./Bootstrap/Navabar";
 import React_boot from "./Bootstrap/React_boot";
 import Mdb_Card from "./Bootstrap/Mdb_Card";
+import Home from "./layout/pages/Home";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import About from "./layout/pages/About";
+import Contact from "./layout/pages/Contact";
+import Help from "./layout/pages/Help";
 
 
 function App() {
   return (
-    <div>
-      {/* component */}
-      {/* <Main_compo /> */}
+    <BrowserRouter>
+      <div>
+        {/* component */}
+        {/* <Main_compo /> */}
 
-      {/* Jsx compo */}
-      {/* <Hello /> */}
-      {/* <Hello2 /> */}
+        {/* Jsx compo */}
+        {/* <Hello /> */}
+        {/* <Hello2 /> */}
 
 
-      {/* <Css /> */}
+        {/* <Css /> */}
 
-      {/* props data */}
-      {/* <Props_main /> */}
+        {/* props data */}
+        {/* <Props_main /> */}
 
-      {/* state data */}
-      {/* <Main_state /> */}
-      
-      {/* state form */}
-      {/* <Form /> */}
-      {/* <Form_object /> */}
+        {/* state data */}
+        {/* <Main_state /> */}
 
-      {/* <Useeffect /> */}
-      {/* <Usetable /> */}
-      {/* <Usercard /> */}
-      
+        {/* state form */}
+        {/* <Form /> */}
+        {/* <Form_object /> */}
 
-      {/* <Navabar /> */}
-      {/* <React_boot /> */}
-      <Mdb_Card />
+        {/* <Useeffect /> */}
+        {/* <Usetable /> */}
+        {/* <Usercard /> */}
 
-    </div>
+
+        {/* <Navabar /> */}
+        {/* <React_boot /> */}
+        {/* <Mdb_Card /> */}
+
+      <Routes >
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} >
+          
+          </Route>
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/help" element={<Help />} />
+          
+      </Routes>
+
+      </div>
+    </BrowserRouter>
   )
 }
 
