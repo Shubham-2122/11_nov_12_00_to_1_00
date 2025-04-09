@@ -18,6 +18,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import About from "./layout/pages/About";
 import Contact from "./layout/pages/Contact";
 import Help from "./layout/pages/Help";
+import About1 from "./layout/pages/About1";
+import About2 from "./layout/pages/About2";
+import Notfound from "./layout/pages/Notfound";
 
 
 function App() {
@@ -56,11 +59,15 @@ function App() {
       <Routes >
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} >
-          
+            <Route path="about1" element={<About1 />} />
+            <Route path="about2" element={<About2 />} />
           </Route>
           <Route path="/contact" element={<Contact />} />
           <Route path="/help" element={<Help />} />
           
+          {/*  */}
+          <Route path="*" element={<Notfound />} />
+
       </Routes>
 
       </div>
