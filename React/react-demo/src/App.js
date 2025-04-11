@@ -21,6 +21,7 @@ import Help from "./layout/pages/Help";
 import About1 from "./layout/pages/About1";
 import About2 from "./layout/pages/About2";
 import Notfound from "./layout/pages/Notfound";
+import Main_context from "./Context/Main_context";
 
 
 function App() {
@@ -64,8 +65,9 @@ function App() {
           </Route>
           <Route path="/contact" element={<Contact />} />
           <Route path="/help" element={<Help />} />
+          <Route path="/context" element={<Main_context />} />
           
-          {/*  */}
+          {/* univseral  routes */}
           <Route path="*" element={<Notfound />} />
 
       </Routes>
