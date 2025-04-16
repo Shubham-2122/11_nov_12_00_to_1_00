@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+
+@layer base{
+    /* particulre tag */
+    h2{
+        font-size: 50px;
+        font-family: cursive;
+    }
+    p{
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+/* card this component */
+@layer components{
+    .card{
+        height: 300px;
+        width: 250px;
+        background: linear-gradient(red,green,blue);
+        color: white;
+        font-size: 25px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .card1{
+        height: 300px;
+        width: 250px;
+        background-color: aqua;
+        color: white;
+        font-size: 25px;
+        border-radius: 20px;
+        text-align: center;
+    }
+}
+
+/* margin,padding,fot */
+@layer utilities{
+    .pad{
+        padding: 50px;
+    }
+    .mar{
+        margin: 30px;
+    }
+    .bor{
+        border: 5px solid lawngreen;
+    }
+}
+
