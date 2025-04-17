@@ -28,6 +28,12 @@ function Header() {
                             <li className="nav-item">
                                 <NavLink className="nav-link " to="/context">useContext</NavLink>
                             </li>
+                            <li className="nav-item">
+                                <NavLink className="nav-link " to="/life">Uselife</NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink className="nav-link " to="/reducer">reducer</NavLink>
+                            </li>
                         </ul>
                         <form className="d-flex" role="search">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />

@@ -22,6 +22,8 @@ import About1 from "./layout/pages/About1";
 import About2 from "./layout/pages/About2";
 import Notfound from "./layout/pages/Notfound";
 import Main_context from "./Context/Main_context";
+import Uselife from "./Lifecycle/Uselife";
+import Useredu from "./Hooks/Useredu";
 
 
 function App() {
@@ -66,6 +68,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/help" element={<Help />} />
           <Route path="/context" element={<Main_context />} />
+          <Route path="/life" element={<Uselife />} />
+          <Route path="/reducer" element={<Useredu />} />
           
           {/* univseral  routes */}
           <Route path="*" element={<Notfound />} />
