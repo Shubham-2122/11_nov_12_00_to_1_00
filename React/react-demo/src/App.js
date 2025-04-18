@@ -24,6 +24,8 @@ import Notfound from "./layout/pages/Notfound";
 import Main_context from "./Context/Main_context";
 import Uselife from "./Lifecycle/Uselife";
 import Useredu from "./Hooks/Useredu";
+import Useref from "./Hooks/Useref";
+import UseCustom from "./Hooks/UseCustom";
 
 
 function App() {
@@ -70,6 +72,8 @@ function App() {
           <Route path="/context" element={<Main_context />} />
           <Route path="/life" element={<Uselife />} />
           <Route path="/reducer" element={<Useredu />} />
+          <Route path="/ref" element={<Useref />} />
+          <Route path="/custom" element={<UseCustom />} />
           
           {/* univseral  routes */}
           <Route path="*" element={<Notfound />} />
