@@ -1,0 +1,36 @@
+{
+    "admin" : [
+        {
+            "id":1,
+            "name":"Admin",
+            "email":"admin@gmail.com",
+            "password":"1234"
+        }
+    ],
+    "user":[
+        {
+            "id":1,
+            "name":"user1",
+            "email":"user1@gmail.com",
+            "password":"1234",
+            "img":"https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "status":"unblock"
+        },
+        {
+            "id":2,
+            "name":"user2",
+            "email":"user2@gmail.com",
+            "password":"4321",
+            "img":"https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "status":"block"
+        },
+        {
+            "id":3,
+            "name":"user3",
+            "email":"user3@gmail.com",
+            "password":"123456",
+            "img":"https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "status":"unblock"
+        }
+    ]
+}
