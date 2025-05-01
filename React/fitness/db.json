@@ -84,5 +84,25 @@
       "name": "dhruvil",
       "img": "https://images.pexels.com/photos/2294363/pexels-photo-2294363.jpeg?auto=compress&cs=tinysrgb&w=600"
     }
+  ],
+  "team": [
+    {
+      "id": "1",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSECJBNaRtnNHjZ4iesyxiqwBJmvV-PYs9JWQ&s",
+      "name": "devid",
+      "Profession": "yogo "
+    },
+    {
+      "id": "3",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSECJBNaRtnNHjZ4iesyxiqwBJmvV-PYs9JWQ&s",
+      "name": "dharmik",
+      "Profession": "gym data "
+    },
+    {
+      "id": "1746082355840",
+      "name": "kuldeep1",
+      "Profession": "gym triiner data",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRriyoYKKvumq1NNr2-qEVG-pqKlSGG6J8_UA&s"
+    }
   ]
 }

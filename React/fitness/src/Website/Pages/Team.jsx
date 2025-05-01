@@ -1,9 +1,23 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Header from '../Coman/Header'
 import Display from '../Coman/Display'
 import Footer from '../Coman/Footer'
+import axios from 'axios'
 
 function Team() {
+
+    const [team, setteam] = useState([])
+
+    useEffect(() => {
+        fetchdata()
+    }, [])
+
+    const fetchdata = async () => {
+        const res = await axios.get("http://localhost:3000/team")
+        // console.log(res.data)
+        setteam(res.data)
+    }
+
     return (
         <div>
             <Header />
@@ -18,74 +32,29 @@ function Team() {
                         </p>
                     </div>
                     <div className="row gy-5 gy-lg-4 gx-4">
-                        <div className="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-                            <div className="team-item">
-                                <div className="team-img">
-                                    <img src="img/team-1.jpg" className="img-fluid w-100" alt="Image" />
-                                    <div className="team-icon">
-                                        <a href="#" className="btn btn-primary btn-sm-square"><i className="fab fa-facebook-f" /></a>
-                                        <a href="#" className="btn btn-primary btn-sm-square"><i className="fab fa-twitter" /></a>
-                                        <a href="#" className="btn btn-primary btn-sm-square"><i className="fab fa-instagram" /></a>
-                                        <a href="#" className="btn btn-primary btn-sm-square"><i className="fab fa-linkedin-in" /></a>
+                    {
+                            team && team.map((data)=>{
+                                return(
+                                    <div className="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                                    <div className="team-item">
+                                        <div className="team-img">
+                                            <img src={data.img} className="img-fluid w-100" style={{height:"300px"}} alt="Image" />
+                                            <div className="team-icon">
+                                                <a href="#" className="btn btn-primary btn-sm-square"><i className="fab fa-facebook-f" /></a>
+                                                <a href="#" className="btn btn-primary btn-sm-square"><i className="fab fa-twitter" /></a>
+                                                <a href="#" className="btn btn-primary btn-sm-square"><i className="fab fa-instagram" /></a>
+                                                <a href="#" className="btn btn-primary btn-sm-square"><i className="fab fa-linkedin-in" /></a>
+                                            </div>
+                                        </div>
+                                        <div className="team-content">
+                                            <h4>{data.name}</h4>
+                                            <p className="mb-0">{data.Profession}</p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div className="team-content">
-                                    <h4>Trainer Name</h4>
-                                    <p className="mb-0">Profession</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
-                            <div className="team-item">
-                                <div className="team-img">
-                                    <img src="img/team-2.jpg" className="img-fluid w-100" alt="Image" />
-                                    <div className="team-icon">
-                                        <a href="#" className="btn btn-primary btn-sm-square"><i className="fab fa-facebook-f" /></a>
-                                        <a href="#" className="btn btn-primary btn-sm-square"><i className="fab fa-twitter" /></a>
-                                        <a href="#" className="btn btn-primary btn-sm-square"><i className="fab fa-instagram" /></a>
-                                        <a href="#" className="btn btn-primary btn-sm-square"><i className="fab fa-linkedin-in" /></a>
-                                    </div>
-                                </div>
-                                <div className="team-content">
-                                    <h4>Trainer Name</h4>
-                                    <p className="mb-0">Profession</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
-                            <div className="team-item">
-                                <div className="team-img">
-                                    <img src="img/team-3.jpg" className="img-fluid w-100" alt="Image" />
-                                    <div className="team-icon">
-                                        <a href="#" className="btn btn-primary btn-sm-square"><i className="fab fa-facebook-f" /></a>
-                                        <a href="#" className="btn btn-primary btn-sm-square"><i className="fab fa-twitter" /></a>
-                                        <a href="#" className="btn btn-primary btn-sm-square"><i className="fab fa-instagram" /></a>
-                                        <a href="#" className="btn btn-primary btn-sm-square"><i className="fab fa-linkedin-in" /></a>
-                                    </div>
-                                </div>
-                                <div className="team-content">
-                                    <h4>Trainer Name</h4>
-                                    <p className="mb-0">Profession</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.8s">
-                            <div className="team-item">
-                                <div className="team-img">
-                                    <img src="img/team-4.jpg" className="img-fluid w-100" alt="Image" />
-                                    <div className="team-icon">
-                                        <a href="#" className="btn btn-primary btn-sm-square"><i className="fab fa-facebook-f" /></a>
-                                        <a href="#" className="btn btn-primary btn-sm-square"><i className="fab fa-twitter" /></a>
-                                        <a href="#" className="btn btn-primary btn-sm-square"><i className="fab fa-instagram" /></a>
-                                        <a href="#" className="btn btn-primary btn-sm-square"><i className="fab fa-linkedin-in" /></a>
-                                    </div>
-                                </div>
-                                <div className="team-content">
-                                    <h4>Trainer Name</h4>
-                                    <p className="mb-0">Profession</p>
-                                </div>
-                            </div>
-                        </div>
+                                )
+                            })
+                           }
                     </div>
                 </div>
             </div>

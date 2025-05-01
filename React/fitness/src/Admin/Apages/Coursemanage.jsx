@@ -25,6 +25,7 @@ function Coursemanage() {
         setview(res.data)
     }
 
+    // view data
     const [view,setview] = useState({
         id:"",
         title:"",
@@ -35,6 +36,12 @@ function Coursemanage() {
         name :"",
         img:""
     })
+
+    const hadnledelete=async(id)=>{
+        const res = await axios.delete(`http://localhost:3000/course/${id}`)
+        console.log(res.data)
+        fetchdata()
+    }
 
     return (
         <div>
@@ -88,7 +95,7 @@ function Coursemanage() {
                                             <MDBBtn className='btn btn-success mx-2' rounded size='md'>
                                                 Edit
                                             </MDBBtn>
-                                            <MDBBtn className='btn btn-danger' rounded size='md'>
+                                            <MDBBtn className='btn btn-danger' rounded size='md' onClick={()=>hadnledelete(data.id)}>
                                                 delete
                                             </MDBBtn>
                                         </td>

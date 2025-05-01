@@ -57,7 +57,6 @@ function CourseAdd() {
         <div>
             <Aheader />
             <div className="container">
-                <h1></h1>
                 <div className="container-fluid">
                     <div className="container py-5">
                         <div className="row g-5">

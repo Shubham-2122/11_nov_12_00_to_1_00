@@ -55,8 +55,16 @@ function Aheader() {
                                     <div className="collapse navbar-collapse" id="navbarCollapse">
                                         <div className="navbar-nav mx-0 mx-lg-auto">
                                             <NavLink to="/dash" className="nav-item nav-link">Home</NavLink>
-                                      
-                                            <NavLink to="/about" className="nav-item nav-link">About</NavLink>
+                                    
+                                            <div className="nav-item dropdown">
+                                                <a href="#" className="nav-link" data-bs-toggle="dropdown">
+                                                    <span className="dropdown-toggle">Team</span>
+                                                </a>
+                                                <div className="dropdown-menu">
+                                                    <NavLink to="/teammanger" className="dropdown-item">Team Manage</NavLink>
+                                                    <NavLink to="/teamadd" className="dropdown-item">Team add</NavLink>
+                                                </div>
+                                            </div>
                                             {/* <NavLink to="/coursemange" className="nav-item nav-link">Courses</NavLink> */}
                                             <div className="nav-item dropdown">
                                                 <a href="#" className="nav-link" data-bs-toggle="dropdown">

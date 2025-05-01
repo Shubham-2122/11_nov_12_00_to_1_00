@@ -12,6 +12,8 @@ import Contact from "./Website/Pages/Contact";
 import Dashboard from "./Admin/Apages/Dashboard";
 import Coursemanage from "./Admin/Apages/Coursemanage";
 import CourseAdd from "./Admin/Apages/CourseAdd";
+import TeamMange from "./Admin/Apages/TeamMange";
+import Teamadd from "./Admin/Apages/Teamadd";
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
           <Route path="/dash" element={<Dashboard />} />
           <Route path="/coursemange" element={<Coursemanage />} />
           <Route path="/courseadd" element={<CourseAdd />} />
+          <Route path="/teammanger" element={<TeamMange />} />
+          <Route path="/teamadd" element={<Teamadd />} />
         </Routes>
       </div>
     </BrowserRouter>
