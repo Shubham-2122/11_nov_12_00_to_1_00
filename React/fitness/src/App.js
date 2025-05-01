@@ -10,6 +10,8 @@ import Testimonial from "./Website/Pages/Testimonial";
 import Notfound from "./Website/Pages/Notfound";
 import Contact from "./Website/Pages/Contact";
 import Dashboard from "./Admin/Apages/Dashboard";
+import Coursemanage from "./Admin/Apages/Coursemanage";
+import CourseAdd from "./Admin/Apages/CourseAdd";
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
 
           {/* admin */}
           <Route path="/dash" element={<Dashboard />} />
+          <Route path="/coursemange" element={<Coursemanage />} />
+          <Route path="/courseadd" element={<CourseAdd />} />
         </Routes>
       </div>
     </BrowserRouter>

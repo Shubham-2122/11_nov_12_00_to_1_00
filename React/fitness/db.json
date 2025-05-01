@@ -1,36 +1,88 @@
 {
-    "admin" : [
-        {
-            "id":1,
-            "name":"Admin",
-            "email":"admin@gmail.com",
-            "password":"1234"
-        }
-    ],
-    "user":[
-        {
-            "id":1,
-            "name":"user1",
-            "email":"user1@gmail.com",
-            "password":"1234",
-            "img":"https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "status":"unblock"
-        },
-        {
-            "id":2,
-            "name":"user2",
-            "email":"user2@gmail.com",
-            "password":"4321",
-            "img":"https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "status":"block"
-        },
-        {
-            "id":3,
-            "name":"user3",
-            "email":"user3@gmail.com",
-            "password":"123456",
-            "img":"https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "status":"unblock"
-        }
-    ]
+  "admin": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "name": "user1",
+      "email": "user1@gmail.com",
+      "password": "1234",
+      "img": "https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "status": "unblock"
+    },
+    {
+      "id": "2",
+      "name": "user2",
+      "email": "user2@gmail.com",
+      "password": "4321",
+      "img": "https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "status": "block"
+    },
+    {
+      "id": "3",
+      "name": "user3",
+      "email": "user3@gmail.com",
+      "password": "123456",
+      "img": "https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "status": "unblock"
+    }
+  ],
+  "course": [
+    {
+      "id": "1",
+      "title": "Gym Fitness Class",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque tempora illo placeat.",
+      "logo": "https://ts4.mm.bing.net/th?id=OIP.n8ouCO6G4XzyfG7nupt1cgHaHa&pid=15.1",
+      "day": "Saturday",
+      "time": "7pm-8pm",
+      "name": "Paul Flavius",
+      "img": "https://images.pexels.com/photos/4401807/pexels-photo-4401807.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "2",
+      "title": "Power Lifting Class",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque tempora illo placeat.",
+      "logo": "https://ts4.mm.bing.net/th?id=OIP.n8ouCO6G4XzyfG7nupt1cgHaHa&pid=15.1",
+      "day": "Monday",
+      "time": "8pm-9pm",
+      "name": "Paul2 Flavius",
+      "img": "https://images.pexels.com/photos/4401807/pexels-photo-4401807.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "3",
+      "title": "Aerobics & Skipping Class",
+      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque tempora illo placeat.",
+      "logo": "https://ts4.mm.bing.net/th?id=OIP.n8ouCO6G4XzyfG7nupt1cgHaHa&pid=15.1",
+      "day": "friday",
+      "time": "7pm-8pm",
+      "name": "Het Patel",
+      "img": "https://images.pexels.com/photos/4401807/pexels-photo-4401807.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "1745910778727",
+      "title": "yogo",
+      "desc": "This yogo class data",
+      "logo": "https://media.istockphoto.com/id/1340543493/photo/weightlifting-icon.jpg?s=1024x1024&w=is&k=20&c=0GKlIc7wWDR1Ij7DhQWpLHsKRImYqFjNU4c-WQexSyk=",
+      "day": "thrusday",
+      "time": "9:00pm-10:00pm",
+      "name": "yug patel",
+      "img": "https://images.pexels.com/photos/2294363/pexels-photo-2294363.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "1745910958331",
+      "title": "kunfoo data",
+      "desc": "Dhruvil the don of gujarat....",
+      "logo": "https://media.istockphoto.com/id/1340543493/photo/weightlifting-icon.jpg?s=1024x1024&w=is&k=20&c=0GKlIc7wWDR1Ij7DhQWpLHsKRImYqFjNU4c-WQexSyk=",
+      "day": "tuesday",
+      "time": "6:00am-7:00am",
+      "name": "dhruvil",
+      "img": "https://images.pexels.com/photos/2294363/pexels-photo-2294363.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  ]
 }
