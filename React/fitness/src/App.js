@@ -14,10 +14,12 @@ import Coursemanage from "./Admin/Apages/Coursemanage";
 import CourseAdd from "./Admin/Apages/CourseAdd";
 import TeamMange from "./Admin/Apages/TeamMange";
 import Teamadd from "./Admin/Apages/Teamadd";
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
     <BrowserRouter>
+
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -40,6 +42,7 @@ function App() {
           <Route path="/teamadd" element={<Teamadd />} />
         </Routes>
       </div>
+      <ToastContainer />
     </BrowserRouter>
   );
 }

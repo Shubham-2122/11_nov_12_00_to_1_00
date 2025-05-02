@@ -55,23 +55,13 @@
       "img": "https://images.pexels.com/photos/4401807/pexels-photo-4401807.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
-      "id": "3",
-      "title": "Aerobics & Skipping Class",
-      "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque tempora illo placeat.",
-      "logo": "https://ts4.mm.bing.net/th?id=OIP.n8ouCO6G4XzyfG7nupt1cgHaHa&pid=15.1",
-      "day": "friday",
-      "time": "7pm-8pm",
-      "name": "Het Patel",
-      "img": "https://images.pexels.com/photos/4401807/pexels-photo-4401807.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
       "id": "1745910778727",
-      "title": "yogo",
-      "desc": "This yogo class data",
+      "title": "yogo ",
+      "desc": "This yogo class data sdfs dfs dfsdfsda",
       "logo": "https://media.istockphoto.com/id/1340543493/photo/weightlifting-icon.jpg?s=1024x1024&w=is&k=20&c=0GKlIc7wWDR1Ij7DhQWpLHsKRImYqFjNU4c-WQexSyk=",
-      "day": "thrusday",
-      "time": "9:00pm-10:00pm",
-      "name": "yug patel",
+      "day": "monday",
+      "time": "7:00pm-8:00pm",
+      "name": "Bhavik patel",
       "img": "https://images.pexels.com/photos/2294363/pexels-photo-2294363.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
@@ -79,7 +69,7 @@
       "title": "kunfoo data",
       "desc": "Dhruvil the don of gujarat....",
       "logo": "https://media.istockphoto.com/id/1340543493/photo/weightlifting-icon.jpg?s=1024x1024&w=is&k=20&c=0GKlIc7wWDR1Ij7DhQWpLHsKRImYqFjNU4c-WQexSyk=",
-      "day": "tuesday",
+      "day": "wednesday",
       "time": "6:00am-7:00am",
       "name": "dhruvil",
       "img": "https://images.pexels.com/photos/2294363/pexels-photo-2294363.jpeg?auto=compress&cs=tinysrgb&w=600"
@@ -95,12 +85,12 @@
     {
       "id": "3",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSECJBNaRtnNHjZ4iesyxiqwBJmvV-PYs9JWQ&s",
-      "name": "dharmik",
+      "name": "dharmik 2",
       "Profession": "gym data "
     },
     {
       "id": "1746082355840",
-      "name": "kuldeep1",
+      "name": "Shubham jadav",
       "Profession": "gym triiner data",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRriyoYKKvumq1NNr2-qEVG-pqKlSGG6J8_UA&s"
     }
