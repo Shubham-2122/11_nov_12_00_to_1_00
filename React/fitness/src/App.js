@@ -15,6 +15,7 @@ import CourseAdd from "./Admin/Apages/CourseAdd";
 import TeamMange from "./Admin/Apages/TeamMange";
 import Teamadd from "./Admin/Apages/Teamadd";
 import { ToastContainer } from 'react-toastify';
+import Alogin from "./Admin/Apages/Alogin";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           <Route path="/courseadd" element={<CourseAdd />} />
           <Route path="/teammanger" element={<TeamMange />} />
           <Route path="/teamadd" element={<Teamadd />} />
+          <Route path="/alogin" element={<Alogin />} />
         </Routes>
       </div>
       <ToastContainer />
