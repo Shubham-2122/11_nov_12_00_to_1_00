@@ -37,6 +37,22 @@
       "password": "123456",
       "img": "https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?auto=compress&cs=tinysrgb&w=600",
       "status": "unblock"
+    },
+    {
+      "id": "1746686137151",
+      "name": "nishil1 patel",
+      "email": "nishil@gmail.com",
+      "password": "123456",
+      "img": "https://images.pexels.com/photos/36355/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
+      "status": "unblock"
+    },
+    {
+      "id": "",
+      "name": "",
+      "email": "",
+      "password": "",
+      "img": "",
+      "status": ""
     }
   ],
   "course": [

@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 function Header() {
     return (
@@ -32,8 +32,8 @@ function Header() {
                                     <div className="col-lg-4 text-center text-lg-end">
                                         <div className="d-flex justify-content-end">
                                             <div className="d-flex align-items-center small">
-                                                <a href="#" className="login-btn text-body me-3 pe-3"> <span>Login</span></a>
-                                                <a href="#" className="text-body me-3"> Register</a>
+                                                <Link to="/login" className="login-btn text-body me-3 pe-3"> <span>Login</span></Link>
+                                                <Link to="/register" className="text-body me-3"> Register</Link>
                                             </div>
                                             <div className="d-flex pe-3">
                                                 <a className="btn p-0 text-primary me-3" href="#"><i className="fab fa-facebook-f" /></a>
