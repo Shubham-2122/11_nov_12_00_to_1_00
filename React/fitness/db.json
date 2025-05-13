@@ -45,7 +45,7 @@
       "password": "123456",
       "img": "https://images.pexels.com/photos/36355/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
       "status": "unblock"
-    } 
+    }
   ],
   "course": [
     {
@@ -107,6 +107,12 @@
       "name": "Shubham jadav",
       "Profession": "gym triiner data",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRriyoYKKvumq1NNr2-qEVG-pqKlSGG6J8_UA&s"
+    },
+    {
+      "id": "1746796255691",
+      "name": "varj patel",
+      "Profession": "gym data ",
+      "img": "https://images.pexels.com/photos/36355/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600"
     }
   ]
 }
