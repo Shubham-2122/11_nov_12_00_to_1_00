@@ -1,0 +1,25 @@
+{
+    "user": [
+        {
+            "id": "1",
+            "name": "shubham jadav",
+            "email": "jadavshubham5@gmail.com",
+            "password": "1234",
+            "phone": "7523577"
+        },
+        {
+            "id": "2",
+            "name": "Dharmik",
+            "email": "Dharmik@gmail.com",
+            "password": "4321",
+            "phone": "7523577"
+        },
+        {
+            "id": "3",
+            "name": "yug patel",
+            "email": "yug@gmail.com",
+            "password": "123456",
+            "phone": "982567565"
+        }
+    ]
+}
