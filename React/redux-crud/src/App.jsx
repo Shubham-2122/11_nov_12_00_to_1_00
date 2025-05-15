@@ -1,11 +1,20 @@
 import React from "react"
+import Read from "./Component/Read"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import Create from "./Component/Create"
 
 function App() {
   
 
   return (
     <>
-      <h1>hello redux crud app</h1>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Read />} />
+          <Route path="/create" element={<Create />} />
+        </Routes>
+      </BrowserRouter>
+     
     </>
   )
 }
