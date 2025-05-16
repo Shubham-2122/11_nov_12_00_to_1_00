@@ -2,6 +2,7 @@ import React from "react"
 import Read from "./Component/Read"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Create from "./Component/Create"
+import Update from "./Component/Update"
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Read />} />
           <Route path="/create" element={<Create />} />
+           <Route path="/update/:id" element={<Update />} />
         </Routes>
       </BrowserRouter>
      

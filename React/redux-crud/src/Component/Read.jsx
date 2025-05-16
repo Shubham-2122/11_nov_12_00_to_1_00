@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { showuser } from '../Slicedata/userSlice'
+import { deleteuser, showuser } from '../Slicedata/userSlice'
 import Navabar from './Navabar'
+import { Link } from 'react-router-dom'
 
 function Read() {
 
@@ -39,8 +40,8 @@ function Read() {
                                         <td>{data.email}</td>
                                         <td>{data.phone}</td>
                                         <td><button className='btn btn-primary'>View</button>
-                                            <button className='btn btn-success mx-2'>Edit</button>
-                                            <button className='btn btn-danger'>delete</button>
+                                            <Link to={`/update/${data.id}`} className='btn btn-success mx-2'>Edit</Link>
+                                            <button className='btn btn-danger' onClick={() => dispatch(deleteuser(data.id))}>delete</button>
                                         </td>
                                     </tr>
                                 )

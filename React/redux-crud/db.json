@@ -16,24 +16,17 @@
     },
     {
       "id": "3",
-      "name": "yug patel",
-      "email": "yug@gmail.com",
-      "password": "123456",
-      "phone": "982567565"
+      "name": "dhruvil patel",
+      "email": "dhruvil@gmail.com",
+      "password": "867767",
+      "phone": "38467625376"
     },
     {
       "id": "1747293326095",
-      "name": "malek",
-      "email": "malek@gmail.com",
+      "name": "divayag3254",
+      "email": "divayag@gmail.com",
       "phone": "872536756",
-      "password": "123456"
-    },
-    {
-      "id": "1747293425913",
-      "name": "nishil1 patel",
-      "email": "nishil@gmail.com",
-      "phone": "12324235423",
-      "password": "23423523"
+      "password": "23456"
     }
   ]
 }

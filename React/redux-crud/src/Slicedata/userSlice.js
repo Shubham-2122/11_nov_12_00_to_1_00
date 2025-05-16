@@ -30,6 +30,34 @@ export const createuser = createAsyncThunk(
     }
 )
 
+// delete
+export const deleteuser = createAsyncThunk(
+    'deleteuser', async (id, { rejectWithValue }) => {
+        try {
+            const res = await axios.delete(`http://localhost:3000/user/${id}`);
+            const resp = res.data
+            return resp;
+
+        } catch (error) {
+            return rejectWithValue(error)
+        }
+    }
+)
+
+// update data
+export const updatedata = createAsyncThunk(
+    'updatedata', async (data, { rejectWithValue }) => {
+        try {
+            const res = await axios.put(`http://localhost:3000/user/${data.id}`, data)
+            const resp = res.data
+            return resp;
+
+        } catch (error) {
+            return rejectWithValue(error)
+        }
+    }
+)
+
 export const userSlice = createSlice({
     name: "userdetails",
     initialState: {
@@ -74,6 +102,42 @@ export const userSlice = createSlice({
                 state.user.push(action.payload)
             })
             .addCase(createuser.rejected, (state, action) => {
+                state.loading = false,
+                    state.error = action.payload
+            })
+
+            // delete
+            .addCase(deleteuser.pending, (state) => {
+                state.loading = true;
+            })
+            .addCase(deleteuser.fulfilled, (state, action) => {
+                state.loading = false;
+
+                const { id } = action.payload
+                if (id) {
+                    state.user = state.user.filter((data) => data.id !== id)
+                }
+            })
+            .addCase(deleteuser.rejected, (state, action) => {
+                state.loading = false,
+                    state.error = action.payload
+            })
+
+            // update data
+            .addCase(updatedata.pending, (state) => {
+                state.loading = true;
+            })
+            .addCase(updatedata.fulfilled, (state, action) => {
+                state.loading = false;
+
+                state.user = state.user.map((ele) =>
+                    // edit query
+                    ele.id = action.payload ? action.payload : ele
+
+                )
+
+            })
+            .addCase(updatedata.rejected, (state, action) => {
                 state.loading = false,
                     state.error = action.payload
             })
